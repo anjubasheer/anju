@@ -19,3 +19,27 @@ Route::get('anjubasheer', function () {
 Route::get('text', function () {
     return view('anju');
 });
+Route::get('login', function () {
+    return view('php');
+});
+Route::get('facebook', function () {
+    return view('facebook');
+});
+Route::get('bs', function () {
+    return view('bs');
+});
+Route::get('slider', function () {
+    return view('slider');
+});
+Route::get('grid', function () {
+    return view('grid');
+});
+Route::get('web', function () {
+    return view('webpage');
+});
+Route::get('photo', function () {
+    return view('photo');
+});
+Route::get('log', function () {
+    return view('login2');
+});
