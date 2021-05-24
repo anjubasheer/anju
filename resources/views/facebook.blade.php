@@ -11,53 +11,49 @@
     </head>
 <body>
 
- <div class="container">
-  <div class="row">
-    <div class="col-lg-6 col-md-12 col-sm-12 " style="background-color:#3b5998;height: 100px;">
+ <div class="container-fluid" id="div_container">
+  <div class="row" id="div_logo">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="background-color:#3b5998;height: 100px;">
       <img src="{{asset('image/facebook.jpg')}}" width="220">
     </div>
-    <div class="col-lg-6" style="background-color:#3b5998;height: 100px;" >
-       <form>
-           <div class="form-row">
-              <div class="form-group col-md-4">
-                <label for="inputEmail4"><font face="verdana" text color="white">Email</font></label>
-                <input type="email" class="form-control" style="display:block; width: 100%;">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                <label class="form-check-label" for="flexCheckChecked" text color="white">
-                  Keep me logged in
-                </label>
-                </div>
-            <div class="form-group col-md-5">
-                <label for="inputPassword4"><font face="verdana"text color="white">Password</font></label>
-                <input type="password" class="form-control" id="inputPassword4 "style="display:block; width: 100%;">
-                <button type="button" class="btn btn-link" text color="white">Forgotten your password?</button>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="login-form" style="background-color:#3b5998;height: 100px;" >
+       <form class="form-inline">
+           <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                <label><font face="verdana" text color="white"><small>Email</small></font></label>
+                <input type="text" class="form-control" id="subscription" style="display:block; width:100%">
+                <small> <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." style="text color:white;">Keep me in logged.</small>
             </div>
-            <div class="form-group col-md-3" style="padding: 30px; ">
-                <button type="submit" class="btn btn-primary">Log in</button>
+            <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                <label><font face="verdana"text color="white"><small>Password</small></font></label>
+                <input type="password" class="form-control" id="email"style="display:block; width: 100%;">
+                <small>Forgotten your password?</small>
             </div>
-          </div>
-      </form>
-   </div>
-  </div>
-   <div class="row">
-    <div class="col-lg-6 hidden-md" style="background-color:#edf0f5; height:550px;padding:100px 50px;">
-    <p><font face="verdana" color="darkblue"><b>Facebook helps you connect and share with the people in your life</b></font> </p>
-    <img src="{{asset('image/fb1.png')}}" >
+            <div class="form-group col-lg-2 col-md-12 col-sm-12">
+                <button type="submit" class="btn btn-info btn-block" style="margin-top:5px" >Log in</button>
+            </div>
+          </form>
     </div>
-    <div class="col-lg-6" style="background-color:#edf0f5; height:550px;">
+ </div>
+<div class="container-fluid" style="background-color:#edf0f5;height: 525px;">
+ <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12 hidden-xs" id="left_pic_container" >
+    <h3 style="padding-left:100px;padding-top:50px;">
+    <font face="verdana" color="darkblue"><b>Facebook helps you connect and share with the people in your life</b></font></h3>
+    <img src="{{asset('image/fb1.png')}}" class="img-responsive" style="padding-left:100px; padding-top:50px; ">
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <form>
           <div class="row">
-              <div class="col-md-6">
+              <div class=" form group col-lg-6 col-md-12 col-sm-12 col-xs-12">
                  <p style="padding: 10px;"><font face="verdana" color="darkblue"><b>Sign Up</b><br>Its free and always be.</font></p>
                   <input type="text" class="form-control" placeholder="First name">
               </div>
-                  <div class="col-md-6">
+                  <div class="form group col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <p style="padding:33px;"></p>
                   <input type="text" class="form-control" placeholder="Last name">
               </div>
           </div>
-        </form>
-        <form>
+        <div class="form group col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <p style="padding:5px;"></p>
           <input type="email" class="form-control"  placeholder="Email Adress">
           <p style="padding:5px;"></p>
@@ -72,19 +68,19 @@
           <input type="radio">Female &nbsp;&nbsp;&nbsp;<input type="radio">male
           <p><font face="verdana" color="darkblue"><small>By clicking the Sign Up, you are agreeing to our terms and that you hav read our data use policy including our cookie use.</small></font></p>
           <input type="button" class="btn btn-success btn block col-lg-3" value="Sign Up">
-
+         </div>
         </form>   
       </div>
   </div>
-
+  
   <div class="row">
-    <div class="col-lg-12">
- 
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:20px;">
+    
     <p><font face="verdana" color="darkblue"><small>Mobile &nbsp; Find Friends &nbsp; Badges &nbsp; People &nbsp; About &nbsp; Advertise &nbsp; Create Page &nbsp; Developers &nbsp; Careers &nbsp; Privacy &nbsp; Terms &nbsp; Help </small></font></p>
 
     </div>
   </div>
-</div>
+
 
  
 </body>
