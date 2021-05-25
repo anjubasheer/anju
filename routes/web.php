@@ -43,3 +43,6 @@ Route::get('photo', function () {
 Route::get('log', function () {
     return view('login2');
 });
+Route::get('java', function () {
+    return view('javascript');
+});
