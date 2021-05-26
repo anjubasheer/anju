@@ -29,29 +29,38 @@
     </div>
     <div class="row">
         <div class="col-lg-4"style="background-color:black; height: 400px;">
-        
-          
-          <figure class="rounded p-3 bg-white shadow-sm">
-         
-             <figcaption class="p-4 card-img-bottom">
-              <h1 class="h5 font-weight-bold mb-2 font-italic">Enjoy its Culture</h1>
-              <p class="mb-0 text-small text-muted font-italic">It's making a serious effort to modernize, especially when it comes to women.</p>
-              </figcaption>
+        <figure class="rounded p-3 bg-white shadow-sm">
+        <h5 class="display-4">Dubai Tour</h5>
+                            <p class="text-muted mb-4">Sign In To Book The Best Memories</p>
+          <form>
+                <div class="form-group mb-3">
+                  <input id="inputEmail" type="email" placeholder="Email address" required="" autofocus="" class="form-control rounded-pill border-0 shadow-sm px-4">
+                </div>
+                  <div class="form-group mb-3">
+                    <input id="inputPassword" type="password" placeholder="Password" required="" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary">
+                  </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                  <input id="customCheck1" type="checkbox" checked class="custom-control-input">
+                    <label for="customCheck1" class="custom-control-label">Remember password</label>
+                  </div>
+                    <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
+                  </form>
+                  <div class="dropdown">
+                   <button class="btn btn-primary dropdown-toggle rounded-pill shadow-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Places To Visit
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="">
+                     <a class="dropdown-item" href="#">Ski Dubai</a>
+                     <a class="dropdown-item" href="#">Burj Khalifa</a>
+                     <a class="dropdown-item" href="#">Al Bastakiya</a>
+                     <a class="dropdown-item" href="#">Wild Wadi Water Park</a>
+                     <a class="dropdown-item" href="#">Dubai Museum</a>
+                     <a class="dropdown-item" href="#">Dubai Zoo</a>
+                    </div>
+                  </div>
           </figure>
-          <figure class="rounded p-3 bg-white shadow-sm">
-         
-         <figcaption class="p-4 card-img-bottom">
-         <button type="button" class="btn btn-link" >Places to visit</button>
-          <h1 class="h5 font-weight-bold mb-2 font-italic"></h1>
-          <p class="mb-0 text-small text-muted font-italic">It's making a serious effort to modernize, especially when it comes to women.</p>
-          </figcaption>
-      </figure>
-          
-            
-
         </div>
-
-        <div class="col-lg-8" style="background-color:black; height: 400px;">
+     <div class="col-lg-8" style="background-color:black; height: 400px;">
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                    <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
