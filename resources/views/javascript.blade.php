@@ -8,37 +8,37 @@
 </head>
 <body>
     <script>  
-    // <input type="text" id="num1">
-    // <input type="text" id="num2">
-    // <input type="button" onclick="sum()" value="find sum">
-    // <script>
-    //     document.write("anju basheer");
-    //     alert("hi");
-    //     console.log("hi anju basheer");
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="button" onclick="sum()" value="find sum">
+    <script>
+        document.write("anju basheer");
+        alert("hi");
+        console.log("hi anju basheer");
    
-    //    function sum()
-    //    {
-    //     a=Number(document.getElementById('num1').value);
-    //     b=Number(document.getElementById('num2').value);
-    //     document.write(a+b);
-    //      console.log(a+b);  
+       function sum()
+       {
+        a=Number(document.getElementById('num1').value);
+        b=Number(document.getElementById('num2').value);
+        document.write(a+b);
+         console.log(a+b);  
              
-    //     }
-    //  a=0;
-    //  b=1;
-    //  s=0;
-    //  limit=Number(prompt("enter a limit" ));
-    //  console.log(a);
-    //  console.log(b);
+        }
+     a=0;
+     b=1;
+     s=0;
+     limit=Number(prompt("enter a limit" ));
+     console.log(a);
+     console.log(b);
     
 
-    // for(i=2; i<limit; i++)
-    //     {
-    //        s=a+b;
-    //        console.log(s);
-    //        a=b;
-    //        b=s;
-    //     }
+    for(i=2; i<limit; i++)
+        {
+           s=a+b;
+           console.log(s);
+           a=b;
+           b=s;
+        }
     mark=[];
     sum=0;
     

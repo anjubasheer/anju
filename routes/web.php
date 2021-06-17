@@ -47,5 +47,8 @@ Route::get('java', function () {
     return view('javascript');
 });
 Route::get('pro', function () {
-    return view('project');
+    return view('projectcus');
+});
+Route::get('jq', function () {
+    return view('jq');
 });
