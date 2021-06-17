@@ -96,15 +96,15 @@
     <div class="image-container">
         <div class="slide">
             <div class="slideNumber">1</div>
-            <img src="f3.jpg" height="400px" width="800px">
+            <img src="{{asset('image/f2.jpg')}}" height="400px" width="800px">
         </div>
         <div class="slide">
             <div class="slideNumber">2</div>
-            <img src="f2.jpg" height="400px" width="800px">
+            <img src="{{asset('image/f1.jpg')}}" height="400px" width="800px">
         </div>
         <div class="slide">
             <div class="slideNumber">3</div>
-            <img src="f1.jpg" height="400px" width="800px">
+            <img src="{{asset('image/f3.jpg')}}" height="400px" width="800px">
         </div>
    
         <!-- Next and Previous icon to change images -->
