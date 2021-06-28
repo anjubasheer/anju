@@ -52,3 +52,12 @@ Route::get('pro', function () {
 Route::get('jq', function () {
     return view('jq');
 });
+Route::get('pro1', function () {
+    return view('procus');
+});
+Route::get('pharma', function () {
+    return view('pharmacus');
+});
+Route::get('phar', function () {
+    return view('pharmacy');
+});
